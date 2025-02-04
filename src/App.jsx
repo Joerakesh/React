@@ -17,7 +17,7 @@ function App() {
       <External />
       <Button />
       <Inline />
-      <UserGreeting isLoggedIn={true} username="Joe" />
+      <UserGreeting isLoggedIn={false} username="Joe" />
       <TeamCard name="Joe Rakesh" role="Using Props" />
       <TeamCard name=" Rakesh" role="Software Engineer" />
       <Footer />
